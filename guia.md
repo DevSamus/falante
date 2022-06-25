@@ -1,4 +1,11 @@
 # criação / configuração do projeto!
+ https://altofalantesom.com.br/product-category/centragens/
+ https://www.coimbracones.com.br/
+
+ https://www.coimbracones.com.br/
+
+ https://www.armazemautomotivo.com/produto/bobina-p-alto-falante-fibra-60x00-enrolamento-duplo-4r-4r_MLB2011594958
+ https://www.armazemautomotivo.com/
  na pasta do projeto 
   npm init -v
 
@@ -34,3 +41,9 @@ Integrando o Express
 lendo tabela excel 
  npm install read-excel-file 
  npm install @types/read-excel-file --save-dev
+
+
+
+ //#  {COD:2071	'BOBINAS EM ALUMÍNIO': 63x10 AL/RF 2 SDS 4h	Valor: 28,00}
+ //   {COD:1025, 'CONE COMUM': '15” FD Friz', Valor: '19,00' }
+

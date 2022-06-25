@@ -3,7 +3,7 @@ require("dotenv").config();
 import express from "express";
 import config from "config";
 import rotas from "./router";
-import {planilha} from "./table/Table";
+import {planilha} from "../bdl/Table";
 
 const app = express();
 
@@ -23,3 +23,5 @@ const port = config.get<number>("port");
 app.listen(port, "localhost", async () => {
   console.log(`http://localhost:${port}/`);
 });
+
+

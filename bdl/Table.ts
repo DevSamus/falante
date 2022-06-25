@@ -5,6 +5,14 @@ const tempDir = path.resolve(__dirname, './cones.xlsx')
 const mkdirp = require('mkdirp')
 mkdirp.sync(tempDir) */
 
+type cone ={
+	tipo:string,
+	polegada:number,
+	modelo:string
+}
+
+
+
 
 export const planilha = function () {
   try {
