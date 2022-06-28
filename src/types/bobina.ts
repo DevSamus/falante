@@ -48,11 +48,10 @@ export type Enrolamento ={
 	externalDiameter?:string	//* Diâmetro externo do enrolamento!
 }
 
-export type Bobina ={
+export type BobinaType ={
 	material: Materiais;//* material da bobina alumínio/kapton/fibra
 	numeracao:string;
 	bodyHeight?:string; // * altura do corpo
 	enrolamento:Enrolamento
-	impedance:Impedance;
-	discretion?:string;
+	impedance:Impedance;	
 }
