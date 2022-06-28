@@ -26,27 +26,33 @@ export enum Materiais {
 
 export enum Tipo{
 	'Reforçado',
+	'RF',
 	'2SDS',
 	'4SDS',
 	'normal',
 	'in/out',
 }
-export enum Impedancia {
-	'2 ohms',
-	'4 ohms',
-	'6 ohms',
-	'8 ohms',
-	'12 ohms'
+export enum Impedance {
+	'2 ohms'='2',
+	'2+2 ohms'='2+2',
+	'4 ohms'='4',
+	'4+4 ohms'='4+4',
+	'6 ohms'='6',
+	'8 ohms'='8',
+	'12 ohms'='12'
 }
 export type Enrolamento ={
 	tipo:Tipo;
-	altura:number
+	height?:number//#altura do enrolamento 
+	internalDiameter?:string //* Diâmetro interno do enrolamento da bobina "in/out"
+	externalDiameter?:string	//* Diâmetro externo do enrolamento!
 }
 
 export type Bobina ={
-	material: Materiais;
+	material: Materiais;//* material da bobina alumínio/kapton/fibra
 	numeracao:string;
-	corpo:string;
+	bodyHeight?:string; // * altura do corpo
 	enrolamento:Enrolamento
-	impedancia:Impedancia
+	impedance:Impedance;
+	discretion?:string;
 }

@@ -13,9 +13,10 @@ console.log("Hello Word!");
 app.use(rotas);
 //const port: number = config.get('port')
 
-const data = planilha()
+const dado = planilha()
 
-console.log(data);
+
+console.log(dado!);
 
 
 
