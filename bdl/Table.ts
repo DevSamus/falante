@@ -37,15 +37,16 @@ export const planilha = function () {
 			let alt_corp =""
 
        dd.forEach(d=>{
-				if(d.match('\\d{2,}(x|X)\\d{2,}')) n=d;
-				else if(d.match('\\d{2,}')) alt_corp=d;
-				if(d.match('\\dh|\\d+\\dh')) imp=d.replace("*", '');
-				if(d.match("RF|2SDS|4SDS"))tipo=d;
-				else if(d.match("ED"))tipo="2SDS";
-				
-			 })
+				 if(d.match('\\d{2,}(x|X)\\d{2,}')) n=d;
+				 else if(!d.match('\\D{1,}') && d.match('\\d{2,}') ) alt_corp=d;
+				 if(d.match('\\dh|\\d+\\dh')) imp=d.replace("*", '');
+				 if(d.match("RF|2SDS|4SDS"))tipo=d;
+				 else if(d.match("ED"))tipo="2SDS";
+				 
+				})
         
 				if(n==="") console.error(p.code,"nada!");
+				if(alt_corp.match('\\D{1,}')) alt_corp="ops";
 				
 				// if(alt_corp==="") console.log(`${p.code} | ${p["BOBINAS EM ALUMÍNIO"]} => `,n,tipo,imp,"A",alt_corp);
 				if(alt_corp) console.log(`${p.code} | ${p["BOBINAS EM ALUMÍNIO"]} => `,n,tipo,imp,"A",alt_corp);

@@ -33,13 +33,13 @@ export enum Tipo{
 	'in/out',
 }
 export enum Impedance {
-	'2 ohms'='2',
-	'2+2 ohms'='2+2',
-	'4 ohms'='4',
-	'4+4 ohms'='4+4',
-	'6 ohms'='6',
-	'8 ohms'='8',
-	'12 ohms'='12'
+	'2 ohms'='2h',
+	'2+2 ohms'='2+2h',
+	'4 ohms'='4h',
+	'4+4 ohms'='4+4h',
+	'6 ohms'='6h',
+	'8 ohms'='8h',
+	'12 ohms'='12h'
 }
 export type Enrolamento ={
 	tipo:Tipo;
