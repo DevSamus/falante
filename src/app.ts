@@ -16,7 +16,7 @@ app.use(rotas);
 const dado = planilha()
 
 
-console.log(dado!);
+//console.log(dado!);
 
 
 
