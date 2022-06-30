@@ -1,5 +1,5 @@
 interface Product {
  valor:number
- discretion?:string;
+ discretion:string;
  estoque?:number
 }

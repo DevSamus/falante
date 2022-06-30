@@ -7,9 +7,9 @@ import {
 } from "../types/bobina";
 class Bobina implements Product {
   valor: number;
-  discretion?: string;
+  discretion!: string;
   estoque?: number;
-  bobina?: BobinaType;
+  bobina!: BobinaType;
 
   constructor(valor: number, discretion?: string, bobina?: BobinaType) {
     this.valor = valor;

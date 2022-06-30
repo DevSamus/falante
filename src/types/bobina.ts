@@ -55,3 +55,17 @@ export type BobinaType ={
 	enrolamento:Enrolamento
 	impedance:Impedance;	
 }
+
+/* 
+ * material: "Alumínio"
+ * numeração: 55x60
+ * bodyHeight: 70mm
+ * enrolamento: {
+ *   tipo:2SDS
+ *   height:33mm -> altura do enrolamento
+ *   internalDiameter?:55mm  
+ *   externalDiameter?:60mm
+ * }
+ * impedance: 4 ohms;	
+
+*/
