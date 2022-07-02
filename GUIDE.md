@@ -1,7 +1,10 @@
 # criação / configuração do projeto!
  https://altofalantesom.com.br/product-category/centragens/
  https://www.coimbracones.com.br/
-
+ https://www.youtube.com/watch?v=1CRwIvjoRg0
+ 
+  https://gravataeletronica.blogspot.com/2015/10/ola-pessoal-uma-das-grandes.html
+ 
  https://www.coimbracones.com.br/
 
  https://www.armazemautomotivo.com/produto/bobina-p-alto-falante-fibra-60x00-enrolamento-duplo-4r-4r_MLB2011594958
